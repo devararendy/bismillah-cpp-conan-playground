@@ -4,7 +4,7 @@
 # compile CXX with /data/data/com.termux/files/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /data/data/com.termux/files/home/.conan2/p/b/fmt437e7d2210f45/p/include
+CXX_INCLUDES = -isystem /data/data/com.termux/files/home/.conan2/p/b/fmt247ed49067f2b/p/include -isystem /data/data/com.termux/files/home/.conan2/p/quillff11ee146eba3/p/include
 
-CXX_FLAGS = -O3 -DNDEBUG -std=gnu++11
+CXX_FLAGS = -O3 -DNDEBUG -std=c++20
 

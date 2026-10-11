@@ -96,7 +96,7 @@ hello_world_EXTERNAL_OBJECTS =
 hello_world: CMakeFiles/hello_world.dir/main.cpp.o
 hello_world: CMakeFiles/hello_world.dir/build.make
 hello_world: CMakeFiles/hello_world.dir/compiler_depend.ts
-hello_world: /data/data/com.termux/files/home/.conan2/p/b/fmt437e7d2210f45/p/lib/libfmt.a
+hello_world: /data/data/com.termux/files/home/.conan2/p/b/fmt247ed49067f2b/p/lib/libfmt.a
 hello_world: CMakeFiles/hello_world.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/data/data/com.termux/files/home/git/c++/bismillah-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable hello_world"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hello_world.dir/link.txt --verbose=$(VERBOSE)

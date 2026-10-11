@@ -12,7 +12,7 @@ endif()
 
 ########### VARIABLES #######################################################################
 #############################################################################################
-set(fmt_PACKAGE_FOLDER_RELEASE "/data/data/com.termux/files/home/.conan2/p/b/fmt437e7d2210f45/p")
+set(fmt_PACKAGE_FOLDER_RELEASE "/data/data/com.termux/files/home/.conan2/p/b/fmt247ed49067f2b/p")
 set(fmt_BUILD_MODULES_PATHS_RELEASE )
 
 

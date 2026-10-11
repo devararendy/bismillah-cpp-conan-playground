@@ -236,7 +236,8 @@ events:
     found: "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       CMAKE_INCLUDE_PATH:
-        - "/data/data/com.termux/files/home/.conan2/p/b/fmt437e7d2210f45/p/include"
+        - "/data/data/com.termux/files/home/.conan2/p/b/fmt247ed49067f2b/p/include"
+        - "/data/data/com.termux/files/home/.conan2/p/quillff11ee146eba3/p/include"
       CMAKE_PREFIX_PATH:
         - "/data/data/com.termux/files/home/git/c++/bismillah-1/build"
       ENV{PATH}:
@@ -1166,8 +1167,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/data/data/com.termux/files/home/git/c++/bismillah-1/build/CMakeFiles/CMakeScratch/TryCompile-SHYF5a"
-      binary: "/data/data/com.termux/files/home/git/c++/bismillah-1/build/CMakeFiles/CMakeScratch/TryCompile-SHYF5a"
+      source: "/data/data/com.termux/files/home/git/c++/bismillah-1/build/CMakeFiles/CMakeScratch/TryCompile-TgTweq"
+      binary: "/data/data/com.termux/files/home/git/c++/bismillah-1/build/CMakeFiles/CMakeScratch/TryCompile-TgTweq"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/data/data/com.termux/files/usr/bin/clang-scan-deps"
       CMAKE_CXX_FLAGS: ""
@@ -1180,19 +1181,19 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/data/data/com.termux/files/home/git/c++/bismillah-1/build/CMakeFiles/CMakeScratch/TryCompile-SHYF5a'
+        Change Dir: '/data/data/com.termux/files/home/git/c++/bismillah-1/build/CMakeFiles/CMakeScratch/TryCompile-TgTweq'
         
-        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_eaf7f/fast
-        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_eaf7f.dir/build.make CMakeFiles/cmTC_eaf7f.dir/build
-        make[1]: Entering directory '/data/data/com.termux/files/home/git/c++/bismillah-1/build/CMakeFiles/CMakeScratch/TryCompile-SHYF5a'
-        Building CXX object CMakeFiles/cmTC_eaf7f.dir/CMakeCXXCompilerABI.cpp.o
-        /data/data/com.termux/files/usr/bin/c++   -O2 -g -DNDEBUG   -v -MD -MT CMakeFiles/cmTC_eaf7f.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_eaf7f.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_eaf7f.dir/CMakeCXXCompilerABI.cpp.o -c /data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_2b0af/fast
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_2b0af.dir/build.make CMakeFiles/cmTC_2b0af.dir/build
+        make[1]: Entering directory '/data/data/com.termux/files/home/git/c++/bismillah-1/build/CMakeFiles/CMakeScratch/TryCompile-TgTweq'
+        Building CXX object CMakeFiles/cmTC_2b0af.dir/CMakeCXXCompilerABI.cpp.o
+        /data/data/com.termux/files/usr/bin/c++   -O2 -g -DNDEBUG -std=c++20   -v -MD -MT CMakeFiles/cmTC_2b0af.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_2b0af.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_2b0af.dir/CMakeCXXCompilerABI.cpp.o -c /data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp
         clang version 21.1.8
         Target: aarch64-unknown-linux-android30
         Thread model: posix
         InstalledDir: /data/data/com.termux/files/usr/bin
          (in-process)
-         "/data/data/com.termux/files/usr/bin/c++" -cc1 -triple aarch64-unknown-linux-android30 -O2 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -enable-tlsdesc -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/data/data/com.termux/files/home/git/c++/bismillah-1/build/CMakeFiles/CMakeScratch/TryCompile-SHYF5a -v -fcoverage-compilation-dir=/data/data/com.termux/files/home/git/c++/bismillah-1/build/CMakeFiles/CMakeScratch/TryCompile-SHYF5a -resource-dir /data/data/com.termux/files/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_eaf7f.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_eaf7f.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D NDEBUG -isysroot /data/data/com.termux/files/usr/bin/../.. -internal-isystem /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1 -internal-isystem /data/data/com.termux/files/usr/lib/clang/21/include -internal-isystem /data/data/com.termux/files/usr/bin/../../usr/local/include -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../include -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../usr/include -fdeprecated-macro -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_eaf7f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp
+         "/data/data/com.termux/files/usr/bin/c++" -cc1 -triple aarch64-unknown-linux-android30 -O2 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -enable-tlsdesc -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/data/data/com.termux/files/home/git/c++/bismillah-1/build/CMakeFiles/CMakeScratch/TryCompile-TgTweq -v -fcoverage-compilation-dir=/data/data/com.termux/files/home/git/c++/bismillah-1/build/CMakeFiles/CMakeScratch/TryCompile-TgTweq -resource-dir /data/data/com.termux/files/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_2b0af.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_2b0af.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D NDEBUG -isysroot /data/data/com.termux/files/usr/bin/../.. -internal-isystem /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1 -internal-isystem /data/data/com.termux/files/usr/lib/clang/21/include -internal-isystem /data/data/com.termux/files/usr/bin/../../usr/local/include -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../include -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../usr/include -std=c++20 -fdeprecated-macro -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fno-implicit-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_2b0af.dir/CMakeCXXCompilerABI.cpp.o -x c++ /data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target aarch64-unknown-linux-android30
         ignoring nonexistent directory "/data/data/com.termux/files/usr/bin/../../usr/local/include"
         ignoring nonexistent directory "/data/data/com.termux/files/usr/bin/../../include"
@@ -1203,15 +1204,15 @@ events:
          /data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android
          /data/data/com.termux/files/usr/bin/../../usr/include
         End of search list.
-        Linking CXX executable cmTC_eaf7f
-        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eaf7f.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_2b0af
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b0af.dir/link.txt --verbose=1
         clang version 21.1.8
         Target: aarch64-unknown-linux-android30
         Thread model: posix
         InstalledDir: /data/data/com.termux/files/usr/bin
-         "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files/usr/bin/../.. -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --use-android-relr-tags --pack-dyn-relocs=relr --hash-style=gnu -rpath=/data/data/com.termux/files/usr/bin/../../usr/lib --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_eaf7f /data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/bin/../../usr/lib -L/system/lib64 CMakeFiles/cmTC_eaf7f.dir/CMakeCXXCompilerABI.cpp.o -lc++_shared /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lm -lc /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/bin/../../usr/lib/crtend_android.o
-        /data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG  -v CMakeFiles/cmTC_eaf7f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_eaf7f
-        make[1]: Leaving directory '/data/data/com.termux/files/home/git/c++/bismillah-1/build/CMakeFiles/CMakeScratch/TryCompile-SHYF5a'
+         "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files/usr/bin/../.. -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --use-android-relr-tags --pack-dyn-relocs=relr --hash-style=gnu -rpath=/data/data/com.termux/files/usr/bin/../../usr/lib --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_2b0af /data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/bin/../../usr/lib -L/system/lib64 CMakeFiles/cmTC_2b0af.dir/CMakeCXXCompilerABI.cpp.o -lc++_shared /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lm -lc /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/bin/../../usr/lib/crtend_android.o
+        /data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG  -v CMakeFiles/cmTC_2b0af.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2b0af
+        make[1]: Leaving directory '/data/data/com.termux/files/home/git/c++/bismillah-1/build/CMakeFiles/CMakeScratch/TryCompile-TgTweq'
         
       exitCode: 0
   -
@@ -1246,19 +1247,19 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/data/data/com.termux/files/home/git/c++/bismillah-1/build/CMakeFiles/CMakeScratch/TryCompile-SHYF5a']
+        ignore line: [Change Dir: '/data/data/com.termux/files/home/git/c++/bismillah-1/build/CMakeFiles/CMakeScratch/TryCompile-TgTweq']
         ignore line: []
-        ignore line: [Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_eaf7f/fast]
-        ignore line: [/data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_eaf7f.dir/build.make CMakeFiles/cmTC_eaf7f.dir/build]
-        ignore line: [make[1]: Entering directory '/data/data/com.termux/files/home/git/c++/bismillah-1/build/CMakeFiles/CMakeScratch/TryCompile-SHYF5a']
-        ignore line: [Building CXX object CMakeFiles/cmTC_eaf7f.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/data/data/com.termux/files/usr/bin/c++   -O2 -g -DNDEBUG   -v -MD -MT CMakeFiles/cmTC_eaf7f.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_eaf7f.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_eaf7f.dir/CMakeCXXCompilerABI.cpp.o -c /data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_2b0af/fast]
+        ignore line: [/data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_2b0af.dir/build.make CMakeFiles/cmTC_2b0af.dir/build]
+        ignore line: [make[1]: Entering directory '/data/data/com.termux/files/home/git/c++/bismillah-1/build/CMakeFiles/CMakeScratch/TryCompile-TgTweq']
+        ignore line: [Building CXX object CMakeFiles/cmTC_2b0af.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/data/data/com.termux/files/usr/bin/c++   -O2 -g -DNDEBUG -std=c++20   -v -MD -MT CMakeFiles/cmTC_2b0af.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_2b0af.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_2b0af.dir/CMakeCXXCompilerABI.cpp.o -c /data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang version 21.1.8]
         ignore line: [Target: aarch64-unknown-linux-android30]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /data/data/com.termux/files/usr/bin]
         ignore line: [ (in-process)]
-        ignore line: [ "/data/data/com.termux/files/usr/bin/c++" -cc1 -triple aarch64-unknown-linux-android30 -O2 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -enable-tlsdesc -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/data/data/com.termux/files/home/git/c++/bismillah-1/build/CMakeFiles/CMakeScratch/TryCompile-SHYF5a -v -fcoverage-compilation-dir=/data/data/com.termux/files/home/git/c++/bismillah-1/build/CMakeFiles/CMakeScratch/TryCompile-SHYF5a -resource-dir /data/data/com.termux/files/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_eaf7f.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_eaf7f.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D NDEBUG -isysroot /data/data/com.termux/files/usr/bin/../.. -internal-isystem /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1 -internal-isystem /data/data/com.termux/files/usr/lib/clang/21/include -internal-isystem /data/data/com.termux/files/usr/bin/../../usr/local/include -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../include -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../usr/include -fdeprecated-macro -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_eaf7f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/data/data/com.termux/files/usr/bin/c++" -cc1 -triple aarch64-unknown-linux-android30 -O2 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -enable-tlsdesc -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/data/data/com.termux/files/home/git/c++/bismillah-1/build/CMakeFiles/CMakeScratch/TryCompile-TgTweq -v -fcoverage-compilation-dir=/data/data/com.termux/files/home/git/c++/bismillah-1/build/CMakeFiles/CMakeScratch/TryCompile-TgTweq -resource-dir /data/data/com.termux/files/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_2b0af.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_2b0af.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D NDEBUG -isysroot /data/data/com.termux/files/usr/bin/../.. -internal-isystem /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1 -internal-isystem /data/data/com.termux/files/usr/lib/clang/21/include -internal-isystem /data/data/com.termux/files/usr/bin/../../usr/local/include -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../include -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../usr/include -std=c++20 -fdeprecated-macro -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fno-implicit-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_2b0af.dir/CMakeCXXCompilerABI.cpp.o -x c++ /data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target aarch64-unknown-linux-android30]
         ignore line: [ignoring nonexistent directory "/data/data/com.termux/files/usr/bin/../../usr/local/include"]
         ignore line: [ignoring nonexistent directory "/data/data/com.termux/files/usr/bin/../../include"]
@@ -1269,13 +1270,13 @@ events:
         ignore line: [ /data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android]
         ignore line: [ /data/data/com.termux/files/usr/bin/../../usr/include]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_eaf7f]
-        ignore line: [/data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eaf7f.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_2b0af]
+        ignore line: [/data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b0af.dir/link.txt --verbose=1]
         ignore line: [clang version 21.1.8]
         ignore line: [Target: aarch64-unknown-linux-android30]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /data/data/com.termux/files/usr/bin]
-        link line: [ "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files/usr/bin/../.. -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --use-android-relr-tags --pack-dyn-relocs=relr --hash-style=gnu -rpath=/data/data/com.termux/files/usr/bin/../../usr/lib --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_eaf7f /data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/bin/../../usr/lib -L/system/lib64 CMakeFiles/cmTC_eaf7f.dir/CMakeCXXCompilerABI.cpp.o -lc++_shared /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lm -lc /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/bin/../../usr/lib/crtend_android.o]
+        link line: [ "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files/usr/bin/../.. -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --use-android-relr-tags --pack-dyn-relocs=relr --hash-style=gnu -rpath=/data/data/com.termux/files/usr/bin/../../usr/lib --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_2b0af /data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/bin/../../usr/lib -L/system/lib64 CMakeFiles/cmTC_2b0af.dir/CMakeCXXCompilerABI.cpp.o -lc++_shared /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lm -lc /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/bin/../../usr/lib/crtend_android.o]
           arg [/data/data/com.termux/files/usr/bin/ld.lld] ==> ignore
           arg [--sysroot=/data/data/com.termux/files/usr/bin/../..] ==> ignore
           arg [-EL] ==> ignore
@@ -1294,11 +1295,11 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/system/bin/linker64] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_eaf7f] ==> ignore
+          arg [cmTC_2b0af] ==> ignore
           arg [/data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o] ==> obj [/data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o]
           arg [-L/data/data/com.termux/files/usr/bin/../../usr/lib] ==> dir [/data/data/com.termux/files/usr/bin/../../usr/lib]
           arg [-L/system/lib64] ==> dir [/system/lib64]
-          arg [CMakeFiles/cmTC_eaf7f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_2b0af.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++_shared] ==> lib [c++_shared]
           arg [/data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [/data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a]
           arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
@@ -1339,7 +1340,7 @@ events:
       - "build/fmt-Target-release.cmake:23 (conan_package_library_targets)"
       - "build/fmtTargets.cmake:24 (include)"
       - "build/fmt-config.cmake:16 (include)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     mode: "library"
     variable: "CONAN_FOUND_LIBRARY"
     description: "Path to a library."
@@ -1354,11 +1355,11 @@ events:
     names:
       - "fmt"
     candidate_directories:
-      - "/data/data/com.termux/files/home/.conan2/p/b/fmt437e7d2210f45/p/lib/"
-    found: "/data/data/com.termux/files/home/.conan2/p/b/fmt437e7d2210f45/p/lib/libfmt.a"
+      - "/data/data/com.termux/files/home/.conan2/p/b/fmt247ed49067f2b/p/lib/"
+    found: "/data/data/com.termux/files/home/.conan2/p/b/fmt247ed49067f2b/p/lib/libfmt.a"
     search_context:
       CMAKE_LIBRARY_PATH:
-        - "/data/data/com.termux/files/home/.conan2/p/b/fmt437e7d2210f45/p/lib"
+        - "/data/data/com.termux/files/home/.conan2/p/b/fmt247ed49067f2b/p/lib"
       CMAKE_PREFIX_PATH:
         - "/data/data/com.termux/files/home/git/c++/bismillah-1/build"
       ENV{PATH}:
@@ -1395,7 +1396,7 @@ events:
       - "build/fmt-Target-release.cmake:60 (conan_package_library_targets)"
       - "build/fmtTargets.cmake:24 (include)"
       - "build/fmt-config.cmake:16 (include)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     mode: "library"
     variable: "CONAN_FOUND_LIBRARY"
     description: "Path to a library."
@@ -1410,11 +1411,11 @@ events:
     names:
       - "fmt"
     candidate_directories:
-      - "/data/data/com.termux/files/home/.conan2/p/b/fmt437e7d2210f45/p/lib/"
-    found: "/data/data/com.termux/files/home/.conan2/p/b/fmt437e7d2210f45/p/lib/libfmt.a"
+      - "/data/data/com.termux/files/home/.conan2/p/b/fmt247ed49067f2b/p/lib/"
+    found: "/data/data/com.termux/files/home/.conan2/p/b/fmt247ed49067f2b/p/lib/libfmt.a"
     search_context:
       CMAKE_LIBRARY_PATH:
-        - "/data/data/com.termux/files/home/.conan2/p/b/fmt437e7d2210f45/p/lib"
+        - "/data/data/com.termux/files/home/.conan2/p/b/fmt247ed49067f2b/p/lib"
       CMAKE_PREFIX_PATH:
         - "/data/data/com.termux/files/home/git/c++/bismillah-1/build"
       ENV{PATH}:
@@ -1447,7 +1448,7 @@ events:
   -
     kind: "find_package-v1"
     backtrace:
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     name: "fmt"
     configs:
       -
@@ -1510,6 +1511,100 @@ events:
       path: "/data/data/com.termux/files/home/git/c++/bismillah-1/build/fmt-config.cmake"
       mode: "config"
       version: "10.2.1"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/data/data/com.termux/files/home/git/c++/bismillah-1/build"
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/git/c++/bismillah-1/virtualenv/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+        - "/data/data/com.termux/files/home/go/bin"
+        - "/data/data/com.termux/files/home/go/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/data/data/com.termux/files/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:11 (find_package)"
+    name: "quill"
+    configs:
+      -
+        filename: "quill.cps"
+        kind: "cps"
+      -
+        filename: "quillConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "quill-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "quill"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/data/data/com.termux/files/home/git/c++/bismillah-1/build/CMakeFiles/pkgRedirects/quillConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/git/c++/bismillah-1/build/CMakeFiles/pkgRedirects/quill-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/git/c++/bismillah-1/build/CMakeFiles/pkgRedirects/lib64/cps/quill.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/git/c++/bismillah-1/build/CMakeFiles/pkgRedirects/lib/cps/quill.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/git/c++/bismillah-1/build/CMakeFiles/pkgRedirects/share/cps/quill.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/git/c++/bismillah-1/build/quillConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/data/data/com.termux/files/home/git/c++/bismillah-1/build/quill-config.cmake"
+      mode: "config"
+      version: "12.1.0"
     search_context:
       CMAKE_PREFIX_PATH:
         - "/data/data/com.termux/files/home/git/c++/bismillah-1/build"

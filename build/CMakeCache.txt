@@ -211,6 +211,9 @@ ConanHelloWorld_SOURCE_DIR:STATIC=/data/data/com.termux/files/home/git/c++/bismi
 //The directory containing a CMake configuration file for fmt.
 fmt_DIR:PATH=/data/data/com.termux/files/home/git/c++/bismillah-1/build
 
+//The directory containing a CMake configuration file for quill.
+quill_DIR:PATH=/data/data/com.termux/files/home/git/c++/bismillah-1/build
+
 
 ########################
 # INTERNAL cache entries

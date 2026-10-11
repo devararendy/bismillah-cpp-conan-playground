@@ -35,6 +35,27 @@ endif()
 
 
 
+########## 'cppstd' block #############
+# Define the C++ and C standards from 'compiler.cppstd' and 'compiler.cstd'
+
+function(conan_modify_std_watch variable access value current_list_file stack)
+    set(conan_watched_std_variable "20")
+    if (${variable} STREQUAL "CMAKE_C_STANDARD")
+        set(conan_watched_std_variable "")
+    endif()
+    if ("${access}" STREQUAL "MODIFIED_ACCESS" AND NOT "${value}" STREQUAL "${conan_watched_std_variable}")
+        message(STATUS "Warning: Standard ${variable} value defined in conan_toolchain.cmake to ${conan_watched_std_variable} has been modified to ${value} by ${current_list_file}")
+    endif()
+    unset(conan_watched_std_variable)
+endfunction()
+
+message(STATUS "Conan toolchain: C++ Standard 20 with extensions OFF")
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_EXTENSIONS OFF)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+variable_watch(CMAKE_CXX_STANDARD conan_modify_std_watch)
+
+
 ########## 'extra_flags' block #############
 # Include extra C++, C and linker flags from configuration tools.build:<type>flags
 # and from CMakeToolchain.extra_<type>_flags
@@ -124,9 +145,9 @@ list(PREPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_LIST_DIR})
 # Definition of CMAKE_PREFIX_PATH, CMAKE_XXXXX_PATH
 # The Conan local "generators" folder, where this toolchain is saved.
 list(PREPEND CMAKE_PREFIX_PATH ${CMAKE_CURRENT_LIST_DIR} )
-list(PREPEND CMAKE_LIBRARY_PATH "/data/data/com.termux/files/home/.conan2/p/b/fmt437e7d2210f45/p/lib")
-list(PREPEND CMAKE_INCLUDE_PATH "/data/data/com.termux/files/home/.conan2/p/b/fmt437e7d2210f45/p/include")
-set(CONAN_RUNTIME_LIB_DIRS "/data/data/com.termux/files/home/.conan2/p/b/fmt437e7d2210f45/p/lib" )
+list(PREPEND CMAKE_LIBRARY_PATH "/data/data/com.termux/files/home/.conan2/p/b/fmt247ed49067f2b/p/lib")
+list(PREPEND CMAKE_INCLUDE_PATH "/data/data/com.termux/files/home/.conan2/p/b/fmt247ed49067f2b/p/include" "/data/data/com.termux/files/home/.conan2/p/quillff11ee146eba3/p/include")
+set(CONAN_RUNTIME_LIB_DIRS "/data/data/com.termux/files/home/.conan2/p/b/fmt247ed49067f2b/p/lib" )
 
 endif()
 
