@@ -160,13 +160,16 @@ Example profile for Android ARM64:
 mkdir -p profiles
 cat > profiles/android-termux-arm64 <<'EOF'
 [settings]
-os=Android
-os.api_level=24
+os=Linux
 arch=armv8
-build_type=Release
 compiler=clang
-compiler.version=16
+compiler.version=21
+compiler.cppstd=20
 compiler.libcxx=c++_shared
+build_type=Release
+
+[conf]
+tools.android:ndk_path=.
 EOF
 ```
 
