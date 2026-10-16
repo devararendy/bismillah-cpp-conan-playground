@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug hello_world (Release)",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/release/hello_world",
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Debug hello_world (Debug)",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/debug/hello_world",
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
