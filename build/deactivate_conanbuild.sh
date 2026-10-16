@@ -1,1 +1,0 @@
-. "/data/data/com.termux/files/home/git/c++/bismillah-1/build/deactivate_conanbuildenv-release-armv8.sh"
